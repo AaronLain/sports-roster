@@ -1,12 +1,18 @@
 import React from 'react';
+
+import Auth from '../components/Auth/Auth';
+import Navbar from '../components/Navbar/Navbar';
+import PlayerContainer from '../components/PlayerContainer/PlayerContainer';
 import './App.scss';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>HELLO THERE</h2>
-        <button className="btn btn-info">General Kenobi</button>
+        <h1>HELLO THERE</h1>
+        <Navbar />
+        <Auth />
+        <PlayerContainer />
       </div>
     );
   }
