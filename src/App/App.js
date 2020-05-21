@@ -32,16 +32,13 @@ class App extends React.Component {
   render() {
     const { authed } = this.state;
 
-    const loadComponent = () => {
-      let componentToLoad = '';
-      if (authed) componentToLoad = <PlayerContainer />;
-      return componentToLoad;
-    };
-
     return (
       <div className="App">
         <Navbar authed={authed}/>
-        {loadComponent()}
+        {authed
+          ? <PlayerContainer />
+          : ''
+        }
       </div>
     );
   }
