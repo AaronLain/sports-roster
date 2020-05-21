@@ -6,7 +6,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="Navbar">
-        <h1>AUTH</h1>
+        <h1>NAV</h1>
       </div>
     );
   }

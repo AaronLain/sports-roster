@@ -6,7 +6,7 @@ class PlayerContainer extends React.Component {
   render() {
     return (
       <div className="PlayerContainer">
-        <h1>AUTH</h1>
+        <h1>PLAYERCONTAINER</h1>
       </div>
     );
   }
