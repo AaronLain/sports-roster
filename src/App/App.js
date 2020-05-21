@@ -45,7 +45,6 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>HELLO THERE</h1>
         <Navbar />
         {loadComponent()}
       </div>
