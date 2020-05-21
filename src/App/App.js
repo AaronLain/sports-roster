@@ -4,7 +4,6 @@ import 'firebase/auth';
 
 import fbConnection from '../helpers/data/connection';
 
-import Auth from '../components/Auth/Auth';
 import Navbar from '../components/Navbar/Navbar';
 import PlayerContainer from '../components/PlayerContainer/PlayerContainer';
 import './App.scss';
@@ -35,17 +34,13 @@ class App extends React.Component {
 
     const loadComponent = () => {
       let componentToLoad = '';
-      if (authed) {
-        componentToLoad = <PlayerContainer />;
-      } else {
-        componentToLoad = <Auth />;
-      }
+      if (authed) componentToLoad = <PlayerContainer />;
       return componentToLoad;
     };
 
     return (
       <div className="App">
-        <Navbar />
+        <Navbar authed={authed}/>
         {loadComponent()}
       </div>
     );
