@@ -21,11 +21,11 @@ class Navbar extends React.Component {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="">Sports Roster!</a>
+          <i className="navbar-brand">Sports Roster!</i>
           {
             authed
               ? <button className="btn btn-danger ml-auto" onClick={this.logMeOut}>Logout</button>
-              : <button className="btn btn-warning ml-auto" onClick={this.loginClickEvent}>GOOGLE</button>
+              : <button className="btn btn-warning ml-auto" onClick={this.loginClickEvent}>Login</button>
           }
         </nav>
       </div>
