@@ -5,7 +5,7 @@ import 'firebase/auth';
 import fbConnection from '../helpers/data/connection';
 
 import Navbar from '../components/Navbar/Navbar';
-import PlayerContainer from '../components/PlayerContainer/PlayerContainer';
+import TeamContainer from '../components/TeamContainer/TeamContainer';
 import './App.scss';
 
 fbConnection();
@@ -36,7 +36,7 @@ class App extends React.Component {
       <div className="App">
         <Navbar authed={authed}/>
         {authed
-          ? <PlayerContainer />
+          ? <TeamContainer />
           : ''
         }
       </div>

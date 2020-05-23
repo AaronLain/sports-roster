@@ -4,7 +4,7 @@ import apiKeys from '../apiKeys.json';
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const getTeamsByUid = (uid) => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/team.json?orderBy="uid"&equalTo="${uid}`)
+  axios.get(`${baseUrl}/team.json?orderBy="uid"&equalTo="${uid}"`)
     .then((result) => {
       const allTeamsObj = result.data;
       const teams = [];
