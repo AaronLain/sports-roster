@@ -20,9 +20,9 @@ class TeamContainer extends React.Component {
 
   render() {
     const { teams } = this.state;
-    // const { setSingleTeam } = this.props;
+    const { setSingleTeam } = this.props;
 
-    const makeTeams = teams.map((team) => <Team key={team.id} team={team}/>);
+    const makeTeams = teams.map((team) => <Team key={team.id} team={team} setSingleTeam={setSingleTeam} />);
 
     return (
       <div className="TeamContainer">

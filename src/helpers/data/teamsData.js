@@ -20,4 +20,6 @@ const getTeamsByUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getTeamsByUid };
+const getSingleTeam = (teamId) => axios.get(`${baseUrl}/team/${teamId}.json`);
+
+export default { getTeamsByUid, getSingleTeam };
