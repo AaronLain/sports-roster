@@ -3,72 +3,72 @@
     "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
     "name": "Pawn",
     "posiiton": "Pawn",
-    "uid": ""
+    "teamId": "team2"
   },
   "player2" :{
     "imageUrl": "https://i7.pngguru.com/preview/916/114/492/chess-piece-rook-bishop-queen-chess.jpg",
     "name": "Rook",
     "posiiton": "Rook",
-    "uid": ""
+    "teamId": "team2"
   },
   "player3" :{
     "imageUrl": "https://w0.pngwave.com/png/626/258/chess-piece-board-game-king-queen-chess-png-clip-art.png",
     "name": "Bishop",
     "posiiton": "Bishop",
-    "uid": ""
+    "teamId": "team2"
   },
   "player4" :{
-    "imageUrl": "https://w7.pngwing.com/pngs/395/656/png-transparent-black-horse-chess-piece-chess-piece-relative-value-knight-xiangqi-chess-material-horse-head-horse-head-lion-head.png",
+    "imageUrl": "https://w7.pngwing.com/pngs/395/656/png-transparent-team2-horse-chess-piece-chess-piece-relative-value-knight-xiangqi-chess-material-horse-head-horse-head-lion-head.png",
     "name": "Knight",
     "posiiton": "Knight",
-    "uid": ""
+    "teamId": "team2"
   },
   "player5" :{
-    "imageUrl": "https://www.pinclipart.com/picdir/middle/184-1845759_free-png-king-black-chess-piece-png-images.png",
+    "imageUrl": "https://www.pinclipart.com/picdir/middle/184-1845759_free-png-king-team2-chess-piece-png-images.png",
     "name": "King",
     "posiiton": "King",
-    "uid": ""
+    "teamId": "team2"
   },
   "player6" :{
-    "imageUrl": "https://toppng.com/uploads/preview/queen-black-chess-piece-11532856322hwnpzklmal.png",
+    "imageUrl": "https://toppng.com/uploads/preview/queen-team2-chess-piece-11532856322hwnpzklmal.png",
     "name": "Queen",
     "posiiton": "Queen",
-    "uid": ""
+    "teamId": "team2"
   },
   "player7" :{
     "imageUrl": "https://www.vhv.rs/dpng/d/139-1392565_white-pawn-chess-piece-png-download-transparent-background.png",
     "name": "Pawn",
     "posiiton": "Pawn",
-    "uid": ""
+    "teamId": "team1"
   },
   "player8" :{
-    "imageUrl": "https://toppng.com/uploads/preview/rook-white-chess-piece-11532860352fgkrs0cewb.png",
+    "imageUrl": "https://toppng.com/uploads/preview/rook-team1-chess-piece-11532860352fgkrs0cewb.png",
     "name": "Rook",
     "posiiton": "Rook",
-    "uid": ""
+    "teamId": "team1"
   },
   "player9" :{
     "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/ColorChangeKnight_cdddb558-60a5-4a93-8856-e0a25b4382e9.gif?v=1535654548",
     "name": "Knight",
     "posiiton": "Knight",
-    "uid": ""
+    "teamId": "team1"
   },
   "player10" :{
     "imageUrl": "https://cdn.clipart.email/bf68ba2f7f07e5134f95f295960d8b55_white-queen-chess-piece-transparent-background-png-clipart-pngguru_800-857.jpeg",
     "name": "Bishop",
     "posiiton": "Bishop",
-    "uid": ""
+    "teamId": "team1"
   },
   "player11" :{
     "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/additional_megachess-44_33afb3f4-7bfe-4438-a46a-46b5d1b35078.png?v=1535649501",
     "name": "King",
     "posiiton": "King",
-    "uid": ""
+    "teamId": "team1"
   },
   "player12" :{
-    "imageUrl": "https://www.pngitem.com/pimgs/m/7-71295_queen-white-chess-piece-png-clip-art-chess.png",
+    "imageUrl": "https://www.pngitem.com/pimgs/m/7-71295_queen-team1-chess-piece-png-clip-art-chess.png",
     "name": "Queen",
     "posiiton": "Queen",
-    "uid": ""
+    "teamId": "team1"
   }
 }

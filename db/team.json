@@ -1,4 +1,12 @@
 {
-  "White": "",
-  "Black": ""
+  "team1": {
+    "name": "white",
+    "description": "Pompous jerk. Always has to go first.",
+    "uid": "myjdqJGTu2aCMT6lJ2xGUIxb2jY2"
+  },
+  "team2": {
+    "name": "black",
+    "description": "Nice guy. Always lets the jerk go first. Real stand up guy.",
+    "uid": "myjdqJGTu2aCMT6lJ2xGUIxb2jY2"
+  }
 }
