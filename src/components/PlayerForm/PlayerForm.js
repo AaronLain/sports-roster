@@ -72,7 +72,7 @@ class PlayerForm extends React.Component {
             type="text"
             className="form-control"
             id="player-name"
-            placeholder="Big Cat"
+            placeholder="Jamey with an -ey"
             value={playerName}
             onChange={this.nameChange}
           />
@@ -83,7 +83,7 @@ class PlayerForm extends React.Component {
           type="text"
           className="form-control"
           id="player-image-url"
-          placeholder="www.google.com"
+          placeholder="www.myimageurl.something"
           value={playerImageUrl}
           onChange={this.imageUrlChange}
         />

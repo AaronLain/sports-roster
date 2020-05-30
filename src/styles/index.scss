@@ -1,12 +1,16 @@
 @import 'variables';
 @import '~bootstrap/dist/css/bootstrap.min.css';
-
-
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital@0;1&display=swap');
 body {
   background-image: $favBackground;
 }
 
-h2 {
+h2, h3 {
+  color: whitesmoke;
+  font-family: 'Volkhov', serif;
+}
+
+label {
   color: whitesmoke;
 }
 
