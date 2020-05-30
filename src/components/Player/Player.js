@@ -1,7 +1,15 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 import './Player.scss';
 
 class Player extends React.Component {
+
+  editPlayerEvent = (e) => {
+    e.preventDefault();
+    const { player, editAPlayer } = this.props;
+    editAPlayer(player);
+  }
+
   deletePlayerEvent = (e) => {
     e.preventDefault();
     const { player, removePlayer } = this.props;
@@ -18,6 +26,7 @@ class Player extends React.Component {
           <div className="card-body">
             <h5 className="card-title">{player.name}</h5>
             <button className="btn btn-warning" onClick={this.deletePlayerEvent} >Delete!</button>
+            <button className="btn btn-warning" onClick={this.editPlayerEvent} >Edit!</button>
           </div>
         </div>
       </div>
