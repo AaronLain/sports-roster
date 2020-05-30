@@ -3,5 +3,17 @@
 
 
 body {
-  background-color: $favColor;
+  background-image: $favBackground;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.btn {
+  margin: .5rem;
 }
