@@ -8,11 +8,21 @@ import authData from '../../helpers/data/authData';
 class TeamForm extends React.Component {
   static propTypes = {
     saveNewTeam: PropTypes.func.isRequired,
+    putTeam: PropTypes.func.isRequired,
+    team: PropTypes.object.isRequired,
   }
 
   state = {
     teamName: '',
     teamDescription: '',
+    isEditing: false,
+  }
+
+  componentDidMount() {
+    const { team } = this.props;
+    if (team.name) {
+      this.setState({ teamName: team.name, teamDescription: team.description, isEditing: true });
+    }
   }
 
   saveTeam = (e) => {
@@ -37,8 +47,20 @@ class TeamForm extends React.Component {
     this.setState({ teamDescription: e.target.value });
   }
 
-  render() {
+  updateTeam = (e) => {
+    e.preventDefault();
+    const { team, putTeam } = this.props;
     const { teamDescription, teamName } = this.state;
+    const updatedTeam = {
+      description: teamDescription,
+      name: teamName,
+      uid: authData.getUid(),
+    };
+    putTeam(team.id, updatedTeam);
+  }
+
+  render() {
+    const { teamDescription, teamName, isEditing } = this.state;
     return (
       <div className="TeamForm">
         <form className="col-6 offset-3">
@@ -64,7 +86,11 @@ class TeamForm extends React.Component {
               onChange={this.descriptionChange}
             />
           </div>
-          <button className="btn btn-dark" onClick={this.saveTeam}>Save Team</button>
+          { isEditing
+            ? <button className="btn btn-info" onClick={this.updateTeam}>Update Team</button>
+            : <button className="btn btn-dark" onClick={this.saveTeam}>Save Team</button>
+
+          }
         </form>
       </div>
     );

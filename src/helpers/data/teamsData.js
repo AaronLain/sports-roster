@@ -26,9 +26,12 @@ const deleteTeam = (teamId) => axios.delete(`${baseUrl}/team/${teamId}.json`);
 
 const saveTeam = (newTeam) => axios.post(`${baseUrl}/team.json`, newTeam);
 
+const updateTeam = (teamId, updatedTeam) => axios.put(`${baseUrl}/team/${teamId}.json`, updatedTeam);
+
 export default {
   getTeamsByUid,
   getSingleTeam,
   deleteTeam,
   saveTeam,
+  updateTeam,
 };

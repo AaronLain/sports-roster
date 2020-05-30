@@ -8,11 +8,21 @@ class PlayerForm extends React.Component {
   static propTypes = {
     teamId: PropTypes.string.isRequired,
     saveNewPlayer: PropTypes.func.isRequired,
+    putPlayer: PropTypes.func.isRequired,
+    player: PropTypes.object.isRequired,
   }
 
   state = {
     playerName: '',
     playerImageUrl: '',
+    isEditing: false,
+  }
+
+  componentDidMount() {
+    const { player } = this.props;
+    if (player.name) {
+      this.setState({ playerName: player.name, playerImageUrl: player.imageUrl, isEditing: true });
+    }
   }
 
   nameChange = (e) => {
@@ -38,34 +48,51 @@ class PlayerForm extends React.Component {
     saveNewPlayer(newPlayer);
   }
 
-  render() {
+  updatePlayer = (e) => {
+    e.preventDefault();
     const { playerImageUrl, playerName } = this.state;
+    const { teamId, putPlayer, player } = this.props;
+    const updatedPlayer = {
+      teamId,
+      imageUrl: playerImageUrl,
+      name: playerName,
+      uid: authData.getUid(),
+    };
+    putPlayer(player.id, updatedPlayer);
+  }
+
+  render() {
+    const { playerImageUrl, playerName, isEditing } = this.state;
     return (
-      <div className="PinForm">
+      <div className="PlayerForm">
       <form className="col-6 offset-3">
         <div className="form-group">
-          <label htmlFor="pin-name">Name</label>
+          <label htmlFor="player-name">Name</label>
           <input
             type="text"
             className="form-control"
-            id="pin-name"
+            id="player-name"
             placeholder="Big Cat"
             value={playerName}
             onChange={this.nameChange}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="pin-image-url">Image Url</label>
+          <label htmlFor="player-image-url">Image Url</label>
           <input
           type="text"
           className="form-control"
-          id="pin-image-url"
+          id="player-image-url"
           placeholder="www.google.com"
           value={playerImageUrl}
           onChange={this.imageUrlChange}
         />
-        </div>
-        <button className="btn btn-primary" onClick={this.savePlayer}>Save Player!</button>
+          </div>
+          {
+            isEditing
+              ? <button className="btn btn-primary" onClick={this.updatePlayer}>Update Player!</button>
+              : <button className="btn btn-primary" onClick={this.savePlayer}>Save New Player!</button>
+          }
       </form>
     </div>
     );

@@ -8,6 +8,12 @@ class Team extends React.Component {
     setSingleTeam(team.id);
   }
 
+  editTeamEvent = (e) => {
+    e.preventDefault();
+    const { editATeam, team } = this.props;
+    editATeam(team);
+  }
+
   render() {
     const { team } = this.props;
     return (
@@ -17,6 +23,7 @@ class Team extends React.Component {
             <h5 className="card-title">{team.name}</h5>
             <p className="card-text">{team.description}</p>
             <button className="btn btn-warning" onClick={this.openSingleTeamEvent}>View Players</button>
+            <button className="btn btn-warning" onClick={this.editTeamEvent}>Edit Team</button>
           </div>
         </div>
       </div>

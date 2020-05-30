@@ -16,6 +16,7 @@ class SingleTeam extends React.Component {
 
   state = {
     team: {},
+    editPlayer: {},
     players: [],
     formOpen: false,
   }
@@ -50,11 +51,29 @@ class SingleTeam extends React.Component {
       .catch((err) => console.error('saveNewPlayer broke', err));
   }
 
+  putPlayer = (playerId, updatedPlayer) => {
+    playerData.updatePlayer(playerId, updatedPlayer)
+      .then(() => {
+        this.getInfo();
+        this.setState({ formOpen: false, editPlayer: {} });
+      })
+      .catch((err) => console.error(err, 'putPlayer broke'));
+  }
+
+  editAPlayer = (player) => {
+    this.setState({ editPlayer: player, formOpen: true });
+  }
+
   render() {
     const { setSingleTeam, teamId } = this.props;
-    const { team, players, formOpen } = this.state;
+    const {
+      team,
+      players,
+      formOpen,
+      editPlayer,
+    } = this.state;
 
-    const buildPlayers = players.map((p) => <Player key={p.id} player={p} removePlayer={this.removePlayer}/>);
+    const buildPlayers = players.map((p) => <Player key={p.id} player={p} removePlayer={this.removePlayer} editAPlayer={this.editAPlayer} />);
 
     return (
       <div className="SingleTeam">
@@ -62,7 +81,7 @@ class SingleTeam extends React.Component {
         <h2>{team.name}</h2>
         <h3>{team.description}</h3>
         <button className="btn btn-info" onClick={() => this.setState({ formOpen: true })}>+</button>
-        {formOpen ? <PlayerForm teamId={teamId} saveNewPlayer={this.saveNewPlayer} /> : ''}
+        {formOpen ? <PlayerForm teamId={teamId} saveNewPlayer={this.saveNewPlayer} player={editPlayer} putPlayer={this.putPlayer} /> : ''}
         <div className="d-flex flex-wrap">
           {buildPlayers}
         </div>
