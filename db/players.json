@@ -1,74 +1,194 @@
 {
+  "player0" :{
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team2"
+  },
   "player1" :{
     "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
     "name": "Pawn",
-    "posiiton": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player2" :{
-    "imageUrl": "https://i7.pngguru.com/preview/916/114/492/chess-piece-rook-bishop-queen-chess.jpg",
-    "name": "Rook",
-    "posiiton": "Rook",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player3" :{
-    "imageUrl": "https://w0.pngwave.com/png/626/258/chess-piece-board-game-king-queen-chess-png-clip-art.png",
-    "name": "Bishop",
-    "posiiton": "Bishop",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player4" :{
-    "imageUrl": "https://w7.pngwing.com/pngs/395/656/png-transparent-team2-horse-chess-piece-chess-piece-relative-value-knight-xiangqi-chess-material-horse-head-horse-head-lion-head.png",
-    "name": "Knight",
-    "posiiton": "Knight",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player5" :{
-    "imageUrl": "https://www.pinclipart.com/picdir/middle/184-1845759_free-png-king-team2-chess-piece-png-images.png",
-    "name": "King",
-    "posiiton": "King",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player6" :{
-    "imageUrl": "https://toppng.com/uploads/preview/queen-team2-chess-piece-11532856322hwnpzklmal.png",
-    "name": "Queen",
-    "posiiton": "Queen",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
+    "name": "Pawn",
+    "position": "Pawn",
     "teamId": "team2"
   },
   "player7" :{
-    "imageUrl": "https://www.vhv.rs/dpng/d/139-1392565_white-pawn-chess-piece-png-download-transparent-background.png",
+    "imageUrl": "https://i7.pngguru.com/preview/812/57/107/chess-titans-king-chess-piece-pawn-chess.jpg",
     "name": "Pawn",
-    "posiiton": "Pawn",
-    "teamId": "team1"
+    "position": "Pawn",
+    "teamId": "team2"
   },
   "player8" :{
-    "imageUrl": "https://toppng.com/uploads/preview/rook-team1-chess-piece-11532860352fgkrs0cewb.png",
+    "imageUrl": "https://i7.pngguru.com/preview/916/114/492/chess-piece-rook-bishop-queen-chess.jpg",
     "name": "Rook",
-    "posiiton": "Rook",
-    "teamId": "team1"
+    "position": "Rook",
+    "teamId": "team2"
   },
   "player9" :{
-    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/ColorChangeKnight_cdddb558-60a5-4a93-8856-e0a25b4382e9.gif?v=1535654548",
-    "name": "Knight",
-    "posiiton": "Knight",
-    "teamId": "team1"
+    "imageUrl": "https://i7.pngguru.com/preview/916/114/492/chess-piece-rook-bishop-queen-chess.jpg",
+    "name": "Rook",
+    "position": "Rook",
+    "teamId": "team2"
   },
   "player10" :{
-    "imageUrl": "https://cdn.clipart.email/bf68ba2f7f07e5134f95f295960d8b55_white-queen-chess-piece-transparent-background-png-clipart-pngguru_800-857.jpeg",
+    "imageUrl": "https://w0.pngwave.com/png/626/258/chess-piece-board-game-king-queen-chess-png-clip-art.png",
     "name": "Bishop",
-    "posiiton": "Bishop",
-    "teamId": "team1"
+    "position": "Bishop",
+    "teamId": "team2"
   },
   "player11" :{
-    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/additional_megachess-44_33afb3f4-7bfe-4438-a46a-46b5d1b35078.png?v=1535649501",
-    "name": "King",
-    "posiiton": "King",
-    "teamId": "team1"
+    "imageUrl": "https://w0.pngwave.com/png/626/258/chess-piece-board-game-king-queen-chess-png-clip-art.png",
+    "name": "Bishop",
+    "position": "Bishop",
+    "teamId": "team2"
   },
   "player12" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/2017_Mega_Chess_Need_to_Clip-44_73916cbd-8b4f-4037-9aa2-4da693fec00c_1200x1200.png?v=1535653568",
+    "name": "Knight",
+    "position": "Knight",
+    "teamId": "team2"
+  },
+  "player13" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/2017_Mega_Chess_Need_to_Clip-44_73916cbd-8b4f-4037-9aa2-4da693fec00c_1200x1200.png?v=1535653568",
+    "name": "Knight",
+    "position": "Knight",
+    "teamId": "team2"
+  },
+  "player14" :{
+    "imageUrl": "https://www.pinclipart.com/picdir/middle/184-1845759_free-png-king-team2-chess-piece-png-images.png",
+    "name": "King",
+    "position": "King",
+    "teamId": "team2"
+  },
+  "player15" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/2017_Mega_Chess_Need_to_Clip-37_3f51096a-44bb-429e-b9d8-17f8f45f6005.png?v=1535648764",
+    "name": "Queen",
+    "position": "Queen",
+    "teamId": "team2"
+  },
+  "player16" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player17" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player18" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player19" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player20" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player21" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player22" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team1"
+  },
+  "player23" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1172/gallery/chess_pieces_001_pawn_white_square0000.jpg?itok=s6_QMh9s",
+    "name": "Pawn",
+    "position": "Pawn",
+    "teamId": "team"
+  },
+  "player24" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1174/gallery/chess_pieces_001_rook_white_square0000.jpg?itok=hpeUuncv",
+    "name": "Rook",
+    "position": "Rook",
+    "teamId": "team1"
+  },
+  "player25" :{
+    "imageUrl": "https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/1174/gallery/chess_pieces_001_rook_white_square0000.jpg?itok=hpeUuncv",
+    "name": "Rook",
+    "position": "Rook",
+    "teamId": "team1"
+  },
+  "player26" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/ColorChangeKnight_cdddb558-60a5-4a93-8856-e0a25b4382e9.gif?v=1535654548",
+    "name": "Knight",
+    "position": "Knight",
+    "teamId": "team1"
+  },
+  "player27" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/ColorChangeKnight_cdddb558-60a5-4a93-8856-e0a25b4382e9.gif?v=1535654548",
+    "name": "Knight",
+    "position": "Knight",
+    "teamId": "team1"
+  },
+  "player28" :{
+    "imageUrl": "https://cdn.clipart.email/bf68ba2f7f07e5134f95f295960d8b55_white-queen-chess-piece-transparent-background-png-clipart-pngguru_800-857.jpeg",
+    "name": "Bishop",
+    "position": "Bishop",
+    "teamId": "team1"
+  },
+  "player29" :{
+    "imageUrl": "https://cdn.clipart.email/bf68ba2f7f07e5134f95f295960d8b55_white-queen-chess-piece-transparent-background-png-clipart-pngguru_800-857.jpeg",
+    "name": "Bishop",
+    "position": "Bishop",
+    "teamId": "team1"
+  },
+  "player30" :{
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2209/1363/products/additional_megachess-44_33afb3f4-7bfe-4438-a46a-46b5d1b35078.png?v=1535649501",
+    "name": "King",
+    "position": "King",
+    "teamId": "team1"
+  },
+  "player31" :{
     "imageUrl": "https://www.pngitem.com/pimgs/m/7-71295_queen-team1-chess-piece-png-clip-art-chess.png",
     "name": "Queen",
-    "posiiton": "Queen",
+    "position": "Queen",
     "teamId": "team1"
   }
 }

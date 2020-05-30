@@ -70,7 +70,7 @@ class TeamForm extends React.Component {
               type="text"
               className="form-control"
               id="team-name"
-              placeholder="Jim"
+              placeholder="A name that makes sense"
               value={teamName}
               onChange={this.nameChange}
             />
@@ -81,7 +81,7 @@ class TeamForm extends React.Component {
               type="text"
               className="form-control"
               id="team-description"
-              placeholder="really nice description"
+              placeholder="an apt description"
               value={teamDescription}
               onChange={this.descriptionChange}
             />
